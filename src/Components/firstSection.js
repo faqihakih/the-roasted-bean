@@ -6,7 +6,7 @@ export default class firstSection extends Component {
             <div>
                 <section className="text-gray-600 body-font">
                     <div className="flex md:flex-row flex-col">
-                        <div className="py-10 lg:w-1/2 lg:h-screen md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center bg-hijau">
+                        <div className="py-10 lg:w-1/2 lg:h-screen md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center bg-hijau px-4">
                             <div class="inline-flex pb-14">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-14 h-14" viewBox="0 0 512 512">
                                     <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
@@ -28,11 +28,11 @@ export default class firstSection extends Component {
                             </div>
                             <p className="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p>
                         </div>
-                        <div className="lg:h-screen lg:w-1/2 md:w-1/2 w-full inline-flex lg:justify-end md:justify-end sm:justify-center pl-14 lg:pl-0 md:pl-0 sm:pl-14">
+                        <div className="lg:h-screen lg:w-1/2 md:w-1/2 w-full inline-flex lg:justify-end md:justify-end sm:justify-center pl-0 lg:pl-0 md:pl-0 sm:pl-0">
                             <div className="bg-gray-300 w-3/4 h-3/4 hidden justify-end lg:flex md:hidden sm:hidden">
                                 <img className="rounded w-3/4 h-5/6" alt="hero" src="https://dummyimage.com/250x250" />
                             </div>
-                            <img className="rounded lg:hidden md:block sm:block" alt="hero" src="https://dummyimage.com/320x500" />
+                            <img className="rounded lg:hidden w-full md:block sm:block" alt="hero" src="https://dummyimage.com/320x500" />
                         </div>
                     </div>
                 </section>
